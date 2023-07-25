@@ -1,0 +1,41 @@
+###
+### A complete description of a Prefect Deployment for flow 'hello-world'
+###
+name: demo-deployment
+description: null
+version: 79e394957c30ffa703b9b2530db904d0
+# The work queue that will handle this deployment's runs
+work_queue_name: default
+work_pool_name: null
+tags: []
+parameters: {}
+schedule: null
+is_schedule_active: null
+infra_overrides: {}
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  block_type_slug: process
+  _block_type_slug: process
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: hello-world
+manifest_path: null
+storage: null
+path: /mnt/c/MUT_Projects/Certification/prefect
+entrypoint: test.py:hello_world
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties: {}
+  required: null
+  definitions: null
+timestamp: '2023-07-25T03:20:02.047448+00:00'
+triggers: []
